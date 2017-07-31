@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "39ea3d27806c5384b6789e375372c1d8"
+build_time: [554538106, 276164000]
+inputs:
+  "/Users/andy06/Desktop/MySQLiteDB2/MySQLiteDB/ViewController.swift": [553309600, 0]
+  "/Users/andy06/Desktop/MySQLiteDB2/MySQLiteDB/AppDelegate.swift": [552644823, 0]

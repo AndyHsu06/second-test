@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5497B3AF1F130910007A08E2 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5497B3AE1F130910007A08E2 /* default.jpg */; };
 		54F69E531F0E15950051B6C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F69E521F0E15950051B6C0 /* AppDelegate.swift */; };
 		54F69E551F0E15950051B6C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F69E541F0E15950051B6C0 /* ViewController.swift */; };
 		54F69E581F0E15950051B6C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F69E561F0E15950051B6C0 /* Main.storyboard */; };
 		54F69E5A1F0E15950051B6C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F69E591F0E15950051B6C0 /* Assets.xcassets */; };
 		54F69E5D1F0E15950051B6C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F69E5B1F0E15950051B6C0 /* LaunchScreen.storyboard */; };
+		54F69E661F0E16360051B6C0 /* MyDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 54F69E651F0E16360051B6C0 /* MyDB.db */; };
+		54F69E691F0E17050051B6C0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F69E681F0E17050051B6C0 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5497B3AE1F130910007A08E2 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
 		54F69E4F1F0E15950051B6C0 /* MySQLiteDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySQLiteDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F69E521F0E15950051B6C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54F69E541F0E15950051B6C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,9 @@
 		54F69E591F0E15950051B6C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F69E5C1F0E15950051B6C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F69E5E1F0E15950051B6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F69E651F0E16360051B6C0 /* MyDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyDB.db; sourceTree = "<group>"; };
+		54F69E681F0E17050051B6C0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		54F69E6A1F0E17A00051B6C0 /* MySQLiteDB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySQLiteDB-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F69E691F0E17050051B6C0 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,7 @@
 			children = (
 				54F69E511F0E15950051B6C0 /* MySQLiteDB */,
 				54F69E501F0E15950051B6C0 /* Products */,
+				54F69E671F0E17040051B6C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,25 @@
 		54F69E511F0E15950051B6C0 /* MySQLiteDB */ = {
 			isa = PBXGroup;
 			children = (
+				5497B3AE1F130910007A08E2 /* default.jpg */,
+				54F69E651F0E16360051B6C0 /* MyDB.db */,
 				54F69E521F0E15950051B6C0 /* AppDelegate.swift */,
 				54F69E541F0E15950051B6C0 /* ViewController.swift */,
 				54F69E561F0E15950051B6C0 /* Main.storyboard */,
 				54F69E591F0E15950051B6C0 /* Assets.xcassets */,
 				54F69E5B1F0E15950051B6C0 /* LaunchScreen.storyboard */,
 				54F69E5E1F0E15950051B6C0 /* Info.plist */,
+				54F69E6A1F0E17A00051B6C0 /* MySQLiteDB-Bridging-Header.h */,
 			);
 			path = MySQLiteDB;
+			sourceTree = "<group>";
+		};
+		54F69E671F0E17040051B6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54F69E681F0E17050051B6C0 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +116,8 @@
 				TargetAttributes = {
 					54F69E4E1F0E15950051B6C0 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6GVDL4Y27X;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +148,8 @@
 				54F69E5D1F0E15950051B6C0 /* LaunchScreen.storyboard in Resources */,
 				54F69E5A1F0E15950051B6C0 /* Assets.xcassets in Resources */,
 				54F69E581F0E15950051B6C0 /* Main.storyboard in Resources */,
+				54F69E661F0E16360051B6C0 /* MyDB.db in Resources */,
+				5497B3AF1F130910007A08E2 /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +286,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6GVDL4Y27X;
 				INFOPLIST_FILE = MySQLiteDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.studio-pj.MySQLiteDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySQLiteDB/MySQLiteDB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6GVDL4Y27X;
 				INFOPLIST_FILE = MySQLiteDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.studio-pj.MySQLiteDB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySQLiteDB/MySQLiteDB-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +332,7 @@
 				54F69E631F0E15950051B6C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
